@@ -45,7 +45,7 @@ and open the template in the editor.
         
         echo "After sorting... \n";
         
-        // Sort the students alphabetically
+        // Sort the students array by key
         ksort($students);
         
         // print the list of students
@@ -70,7 +70,7 @@ and open the template in the editor.
         
         echo "After sorting... \n";
         
-        // Sort the students alphabetically
+        // Sort the students array by key
         ksort($students);
         
         // print the list of students
