@@ -48,7 +48,7 @@ class Student
         foreach($this->emails as $which=>$what)
             $result .= '<b>' . $which . '</b>: ' . $what. "\n";
         $result .= "\n";
-        return '<pre>' . $result . '</pre>';
+        return '<pre>' . $result . '<hr/></pre>';
     }
     
 }
