@@ -42,11 +42,11 @@ class Student
     
     // Build fancy text representation for reporting 
     function toString(){
-        $result = $this->first_name . ' ' .
-                $this->surname;
+        $result = '<b>' . $this->first_name . ' ' .
+                $this->surname . '</b>';
         $result .= ' (' .$this->average().")\n";
         foreach($this->emails as $which=>$what)
-            $result .= $which . ': ' . $what. "\n";
+            $result .= '<b>' . $which . '</b>: ' . $what. "\n";
         $result .= "\n";
         return '<pre>' . $result . '</pre>';
     }
